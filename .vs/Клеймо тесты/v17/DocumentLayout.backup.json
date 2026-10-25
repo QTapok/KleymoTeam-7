@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|c:\\users\\qtapok\\desktop\\\u043A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\volumeslidersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\volumeslidersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|c:\\users\\qtapok\\desktop\\\u043A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\ui\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\ui\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\ui\\menubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\ui\\menubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\ui\\hovericon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\ui\\hovericon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\inventorysys\\selectedcursorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\inventorysys\\selectedcursorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\ui\\uibuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\ui\\uibuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VolumeSliderSync.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\VolumeSliderSync.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\VolumeSliderSync.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\VolumeSliderSync.cs",
+              "RelativeToolTip": "Assets\\SCR\\VolumeSliderSync.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T04:34:10.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsManager.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\SettingsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\SettingsManager.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\SettingsManager.cs",
+              "RelativeToolTip": "Assets\\SCR\\SettingsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T04:15:33.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UIButtons.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\UIButtons.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\UI\\UIButtons.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\UIButtons.cs",
+              "RelativeToolTip": "Assets\\SCR\\UI\\UIButtons.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwG8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T15:46:07.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\Settings.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\UI\\Settings.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\Settings.cs",
+              "RelativeToolTip": "Assets\\SCR\\UI\\Settings.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T02:15:11.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuButtons.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\MenuButtons.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\UI\\MenuButtons.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\MenuButtons.cs",
+              "RelativeToolTip": "Assets\\SCR\\UI\\MenuButtons.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T15:52:27.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HoverIcon.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\HoverIcon.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\UI\\HoverIcon.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\HoverIcon.cs",
+              "RelativeToolTip": "Assets\\SCR\\UI\\HoverIcon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T04:53:57.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SelectedCursorUI.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
+              "RelativeToolTip": "Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAQwO0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T04:51:05.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DialogueUI.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "RelativeToolTip": "Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T15:37:47.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\SCR\\MainMenu.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T15:15:04.413Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

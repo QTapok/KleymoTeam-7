@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b4cd2dc1f556224e97802959acf5799, type: 3}
+  m_Name: Sharpening
+  m_EditorClassIdentifier: Assembly-CSharp::CraftRecipe
+  inputA: {fileID: 11400000, guid: fcb968267cc7c294ea32389f0e269454, type: 2}
+  inputB: {fileID: 11400000, guid: ba189f1e6d39fd945a2d5dc33e045bcf, type: 2}
+  result: {fileID: 11400000, guid: 4f2daeceddba197448dcaf6454a9a66f, type: 2}

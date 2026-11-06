@@ -88,4 +88,47 @@ public class Inventory : MonoBehaviour
 
         return true;
     }
+
+    // Сколько штук такого предмета в инвентаре
+    public int Count(ItemData item)
+    {
+        if (item == null) return 0;
+        int c = 0;
+        foreach (var i in items) if (i == item) c++;
+        return c;
+    }
+
+    // Есть ли предмет в нужном количестве
+    public bool Has(ItemData item, int amount = 1)
+        => amount <= 0 ? true : Count(item) >= amount;
+
+    // Удалить один экземпляр. true — если удалось
+    public bool Remove(ItemData item)
+    {
+        if (item == null) return false;
+        if (!items.Remove(item)) return false;
+
+        if (SelectedItem == item) ClearSelection();
+
+        OnInventoryChanged?.Invoke();
+        return true;
+    }
+
+    // Удалить несколько экземпляров
+    public int Remove(ItemData item, int amount)
+    {
+        if (item == null || amount <= 0) return 0;
+
+        int removed = 0;
+        while (removed < amount && items.Remove(item)) removed++;
+
+        if (removed > 0)
+        {
+            if (SelectedItem == item && !items.Contains(item))
+                ClearSelection();
+
+            OnInventoryChanged?.Invoke();
+        }
+        return removed;
+    }
 }

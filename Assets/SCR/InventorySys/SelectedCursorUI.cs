@@ -28,16 +28,13 @@ public class SelectedCursorUI : MonoBehaviour
     private RectTransform rect;
     private Canvas canvas;
 
-    private Sprite heldSprite;   // иконка предмета в руке
-    private Sprite hoverSprite;  // иконка объекта под курсором
+    private Sprite heldSprite;
+    private Sprite hoverSprite;
     private Sprite appliedSprite;
 
     private bool subscribed;
     private bool cursorHidden;
 
-    // ------------------------------------------------------------
-    // Lifecycle
-    // ------------------------------------------------------------
     private void Awake()
     {
         image = GetComponent<Image>();
@@ -46,7 +43,6 @@ public class SelectedCursorUI : MonoBehaviour
 
         image.raycastTarget = false;
 
-        // Сразу показываем дефолтный курсор (если задан), иначе Image скрыт
         ApplySprite(defaultCursorSprite);
     }
 
@@ -87,9 +83,6 @@ public class SelectedCursorUI : MonoBehaviour
         cursorHidden = !visible;
     }
 
-    // ------------------------------------------------------------
-    // Inventory
-    // ------------------------------------------------------------
     private void TrySubscribe()
     {
         if (subscribed) return;
@@ -117,15 +110,12 @@ public class SelectedCursorUI : MonoBehaviour
     {
         if (heldSprite == null && Inventory.Instance != null)
         {
-            var current = Inventory.Instance.SelectedItem; // если есть
+            var current = Inventory.Instance.SelectedItem;
             if (current != null) heldSprite = current.icon;
         }
         Reevaluate();
     }
 
-    // ------------------------------------------------------------
-    // Update
-    // ------------------------------------------------------------
     private void Update()
     {
         if (canvas == null) return;
@@ -157,14 +147,12 @@ public class SelectedCursorUI : MonoBehaviour
 
     private void UpdateHover(Vector2 screenPos)
     {
-        // 1) Над UI — мир игнорируем
         if (IsPointerOverUI(screenPos))
         {
             hoverSprite = null;
             return;
         }
 
-        // 2) Камера
         Camera worldCam = canvas.renderMode == RenderMode.ScreenSpaceOverlay
             ? Camera.main
             : canvas.worldCamera;
@@ -175,7 +163,6 @@ public class SelectedCursorUI : MonoBehaviour
             return;
         }
 
-        // 3) Рейкаст
         Vector2 worldPos = worldCam.ScreenToWorldPoint(screenPos);
         Collider2D hit = Physics2D.OverlapPoint(worldPos, hoverLayerMask);
 
@@ -185,11 +172,10 @@ public class SelectedCursorUI : MonoBehaviour
             return;
         }
 
-        // 4) Маркер
         HoverIcon marker = hit.GetComponentInParent<HoverIcon>();
         hoverSprite = (marker != null && marker.icon != null)
             ? marker.icon
-            : fallbackHoverSprite; // может быть null
+            : fallbackHoverSprite;
     }
 
     private bool IsPointerOverUI(Vector2 screenPos)
@@ -208,9 +194,6 @@ public class SelectedCursorUI : MonoBehaviour
         return false;
     }
 
-    // ------------------------------------------------------------
-    // Применение спрайта: hover > held > default
-    // ------------------------------------------------------------
     private void Reevaluate()
     {
         Sprite wanted = hoverSprite != null

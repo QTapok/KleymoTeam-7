@@ -19,7 +19,7 @@ public class InventoryUI : MonoBehaviour
     {
         if (Inventory.Instance != null)
         {
-            Inventory.Instance.OnInventoryChanged -= Rebuild; // защита от дублей
+            Inventory.Instance.OnInventoryChanged -= Rebuild; 
             Inventory.Instance.OnInventoryChanged += Rebuild;
             Rebuild();
         }

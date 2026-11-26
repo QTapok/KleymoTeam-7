@@ -3,24 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|c:\\users\\qtapok\\desktop\\\u043A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\eventsystem\\dailyschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\eventsystem\\dailyschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\v0.4\\locrandman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\v0.4\\locrandman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|c:\\users\\qtapok\\desktop\\\u043A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\save load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\save load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|c:\\users\\qtapok\\desktop\\\u043A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\save load\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\save load\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\dialogueflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\dialogueflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\transition\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\transition\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\inventorysys\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\inventorysys\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\dialoguedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\dialoguedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\debugresetprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\debugresetprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\transition\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\transition\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\transition\\locationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\transition\\locationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\playerstatsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\playerstatsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\eventsystem\\eventsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\eventsystem\\eventsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\inventorysys\\selectedcursorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\inventorysys\\selectedcursorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\inventorysys\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\inventorysys\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\time\\timeskiper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\time\\timeskiper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCR\\Event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\time\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\time\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\debugresetprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\debugresetprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\time\\daytimeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\time\\daytimeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\nps system\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\nps system\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\inventorysys\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\inventorysys\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\volumeslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,12 +115,12 @@
       "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\ui\\hovericon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\inventorysys\\selectedcursorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\inventorysys\\selectedcursorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\ui\\uibuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\ui\\uibuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\assets\\scr\\craft\\craftrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB490EE-208F-B11D-8B21-4965C68C0B07}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\craft\\craftrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,19 +135,250 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DialogueUI.cs",
-              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueUI.cs",
-              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\DialogueUI.cs",
-              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueUI.cs",
-              "RelativeToolTip": "Assets\\SCR\\NPS System\\DialogueUI.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAnwM4AAAAnAAAAAAAAAA==",
+              "Title": "DailySchedule.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\EventSystem\\DailySchedule.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\EventSystem\\DailySchedule.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\EventSystem\\DailySchedule.cs",
+              "RelativeToolTip": "Assets\\SCR\\EventSystem\\DailySchedule.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGgAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T17:02:42.121Z",
+              "WhenOpened": "2026-11-26T05:13:00.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Save Load\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Save Load\\SaveManager.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Save Load\\SaveManager.cs",
+              "RelativeToolTip": "Assets\\SCR\\Save Load\\SaveManager.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAkwPsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T05:09:14.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DialogueFlags.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueFlags.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\DialogueFlags.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueFlags.cs",
+              "RelativeToolTip": "Assets\\SCR\\NPS System\\DialogueFlags.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T05:07:19.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Save Load\\ItemDataBase.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Save Load\\ItemDataBase.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Save Load\\ItemDataBase.cs",
+              "RelativeToolTip": "Assets\\SCR\\Save Load\\ItemDataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T08:26:40.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LocRandMan.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\V0.4\\LocRandMan.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\V0.4\\LocRandMan.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\V0.4\\LocRandMan.cs",
+              "RelativeToolTip": "Assets\\SCR\\V0.4\\LocRandMan.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T11:42:42.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\PlayerStats.cs",
+              "RelativeToolTip": "Assets\\SCR\\NPS System\\PlayerStats.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowE4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:54:01.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerStatsUI.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\PlayerStatsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\PlayerStatsUI.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\PlayerStatsUI.cs",
+              "RelativeToolTip": "Assets\\SCR\\PlayerStatsUI.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:28:42.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventSys.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\EventSystem\\EventSys.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\EventSystem\\EventSys.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\EventSystem\\EventSys.cs",
+              "RelativeToolTip": "Assets\\SCR\\EventSystem\\EventSys.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAUwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:35:07.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Exit.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Transition\\Exit.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Transition\\Exit.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Transition\\Exit.cs",
+              "RelativeToolTip": "Assets\\SCR\\Transition\\Exit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:13:40.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Transition\\Location.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Transition\\Location.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Transition\\Location.cs",
+              "RelativeToolTip": "Assets\\SCR\\Transition\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:13:23.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocationManager.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Transition\\LocationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Transition\\LocationManager.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Transition\\LocationManager.cs",
+              "RelativeToolTip": "Assets\\SCR\\Transition\\LocationManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:13:27.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CraftRecipe.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Craft\\CraftRecipe.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Craft\\CraftRecipe.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Craft\\CraftRecipe.cs",
+              "RelativeToolTip": "Assets\\SCR\\Craft\\CraftRecipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:04:28.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NPC.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\NPC.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\NPC.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\NPC.cs",
+              "RelativeToolTip": "Assets\\SCR\\NPS System\\NPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:09:05.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DialogueData.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueData.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\DialogueData.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueData.cs",
+              "RelativeToolTip": "Assets\\SCR\\NPS System\\DialogueData.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwD4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:08:46.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Event.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Event.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Event.cs",
+              "RelativeToolTip": "Assets\\SCR\\Event.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:03:22.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TimeSkiper.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Time\\TimeSkiper.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Time\\TimeSkiper.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Time\\TimeSkiper.cs",
+              "RelativeToolTip": "Assets\\SCR\\Time\\TimeSkiper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T06:08:03.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TimeManager.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Time\\TimeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Time\\TimeManager.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Time\\TimeManager.cs",
+              "RelativeToolTip": "Assets\\SCR\\Time\\TimeManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T05:37:49.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DayTimeUI.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Time\\DayTimeUI.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\Time\\DayTimeUI.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\Time\\DayTimeUI.cs",
+              "RelativeToolTip": "Assets\\SCR\\Time\\DayTimeUI.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T05:36:00.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\InventorySys\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\InventorySys\\Inventory.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\InventorySys\\Inventory.cs",
+              "RelativeToolTip": "Assets\\SCR\\InventorySys\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T17:12:19.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DialogueUI.cs",
+              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "RelativeToolTip": "Assets\\SCR\\NPS System\\DialogueUI.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T17:02:42.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "InventoryUI.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\InventorySys\\InventoryUI.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\InventorySys\\InventoryUI.cs",
@@ -91,43 +390,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "DebugResetProgress.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DebugResetProgress.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\DebugResetProgress.cs",
               "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\DebugResetProgress.cs",
               "RelativeToolTip": "Assets\\SCR\\NPS System\\DebugResetProgress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-25T16:52:40.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerStatsUI.cs",
-              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\PlayerStatsUI.cs",
-              "RelativeDocumentMoniker": "Assets\\SCR\\PlayerStatsUI.cs",
-              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\PlayerStatsUI.cs",
-              "RelativeToolTip": "Assets\\SCR\\PlayerStatsUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T12:28:42.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerStats.cs",
-              "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\PlayerStats.cs",
-              "RelativeDocumentMoniker": "Assets\\SCR\\NPS System\\PlayerStats.cs",
-              "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\NPS System\\PlayerStats.cs",
-              "RelativeToolTip": "Assets\\SCR\\NPS System\\PlayerStats.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T11:54:01.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "VolumeSlider.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\VolumeSlider.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\VolumeSlider.cs",
@@ -139,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "SettingsManager.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\SettingsManager.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\SettingsManager.cs",
@@ -151,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "UIButtons.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\UIButtons.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\UI\\UIButtons.cs",
@@ -163,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\Settings.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\UI\\Settings.cs",
@@ -175,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "MenuButtons.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\MenuButtons.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\UI\\MenuButtons.cs",
@@ -187,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "HoverIcon.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\UI\\HoverIcon.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\UI\\HoverIcon.cs",
@@ -199,19 +474,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SelectedCursorUI.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
               "ToolTip": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
               "RelativeToolTip": "Assets\\SCR\\InventorySys\\SelectedCursorUI.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAQwO0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwLgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-23T04:51:05.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\QTapok\\Desktop\\\u041A\u043B\u0435\u0439\u043C\u043E \u0442\u0435\u0441\u0442\u044B\\Assets\\SCR\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\SCR\\MainMenu.cs",

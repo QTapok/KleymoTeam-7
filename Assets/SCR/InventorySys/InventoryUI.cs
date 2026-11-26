@@ -6,8 +6,6 @@ public class InventoryUI : MonoBehaviour
     public Transform slotsParent;
     public GameObject slotPrefab;
 
-    private int rebuildsThisFrame = 0;
-    private int lastFrame = -1;
 
     private void Start()
     {
@@ -37,11 +35,11 @@ public class InventoryUI : MonoBehaviour
 
         int itemCount = Inventory.Instance.items.Count;
 
-        // Скрываем все слоты
+        //Скрываем все слоты
         for (int i = 0; i < slotsParent.childCount; i++)
             slotsParent.GetChild(i).gameObject.SetActive(false);
 
-        // Обновляем/создаем нужные
+        //Обновляем/создаем нужные
         for (int i = 0; i < itemCount; i++)
         {
             var item = Inventory.Instance.items[i];

@@ -2,28 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Инвентарь для хранения данных предметов
 public class Inventory : MonoBehaviour
 {
-    // Статичная ссылка на инвентарь (Singleton)
     public static Inventory Instance;
 
-    // Текущий выбранный предмет
     public ItemData SelectedItem { get; private set; }
 
-    // Список предметов в инвентаре
     public List<ItemData> items = new();
 
-    // Событие, которое вызывается при добавлении предмета
     public event Action<ItemData> OnItemAdded;
-    // Событие, которое вызывается при смене выбранного предмета
     public event Action<ItemData> OnSelectionChanged;
 
     public event Action OnInventoryChanged;
 
     private void Awake()
     {
-        // Проверяем, чтобы в сцене был только один инвентарь
         if (Instance != null)
         {
             Destroy(gameObject);
@@ -33,36 +26,29 @@ public class Inventory : MonoBehaviour
         Instance = this;
     }
 
-    // Добавление предмета в инвентарь
     public void Add(ItemData item)
     {
         if (item == null) return;
 
         items.Add(item);
 
-        // Уведомляем подписчиков о добавлении предмета
         OnItemAdded?.Invoke(item);
 
         OnInventoryChanged?.Invoke();
     }
 
-    // Выбор предмета в инвентаре
     public void Select(ItemData item)
     {
         SelectedItem = item;
-        // Уведомляем подписчиков об изменении выбранного предмета
         OnSelectionChanged?.Invoke(SelectedItem);
     }
 
-    // Сброс выбранного предмета
     public void ClearSelection()
     {
         SelectedItem = null;
-        // Уведомляем подписчиков об изменении выбранного предмета
         OnSelectionChanged?.Invoke(SelectedItem);
     }
 
-    // Крафт и удаление предметов
     public bool TryCombine(ItemData a, ItemData b, out ItemData result)
     {
         result = null;
@@ -79,17 +65,16 @@ public class Inventory : MonoBehaviour
         items.Remove(b);
 
         result = recipe.result;
-        items.Add(result);   // ← добавляем результат
+        items.Add(result);
 
         if (SelectedItem == a || SelectedItem == b)
             ClearSelection();
 
-        OnInventoryChanged?.Invoke();   // ← перерисовываем UI
+        OnInventoryChanged?.Invoke();
 
         return true;
     }
 
-    // Сколько штук такого предмета в инвентаре
     public int Count(ItemData item)
     {
         if (item == null) return 0;
@@ -98,11 +83,9 @@ public class Inventory : MonoBehaviour
         return c;
     }
 
-    // Есть ли предмет в нужном количестве
     public bool Has(ItemData item, int amount = 1)
         => amount <= 0 ? true : Count(item) >= amount;
 
-    // Удалить один экземпляр. true — если удалось
     public bool Remove(ItemData item)
     {
         if (item == null) return false;
@@ -114,7 +97,6 @@ public class Inventory : MonoBehaviour
         return true;
     }
 
-    // Удалить несколько экземпляров
     public int Remove(ItemData item, int amount)
     {
         if (item == null || amount <= 0) return 0;
@@ -130,5 +112,13 @@ public class Inventory : MonoBehaviour
             OnInventoryChanged?.Invoke();
         }
         return removed;
+    }
+
+    public void ClearAll()
+    {
+        if (items.Count == 0) return;
+        items.Clear();
+        ClearSelection();
+        OnInventoryChanged?.Invoke();
     }
 }

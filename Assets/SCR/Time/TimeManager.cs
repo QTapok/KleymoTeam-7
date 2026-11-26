@@ -1,4 +1,3 @@
-// Core/TimeManager.cs
 using System;
 using UnityEngine;
 
@@ -8,22 +7,21 @@ public class TimeManager : MonoBehaviour
 
     [Header("Стартовое время")]
     [Tooltip("Стартовый час (0-23)")]
-    [SerializeField] private int startHour = 8;
-
-    [Tooltip("Стартовая минута (0-59)")]
-    [SerializeField] private int startMinute = 0;
+    [SerializeField] private int startHour = 6;
 
     [Tooltip("Стартовый день")]
     [SerializeField] private int startDay = 1;
 
-    // Текущее время
+    [Header("Настройки")]
+    [Tooltip("Час, в который начинается новый день")]
+    [SerializeField] private int dayStartHour = 6;
+
+    //текущее время
     public int CurrentHour { get; private set; }
-    public int CurrentMinute { get; private set; }
     public int CurrentDay { get; private set; }
 
-    //Событие изменения времени. Передаёт (hour, minute, day)
-    public event Action<int, int, int> OnTimeChanged;
-
+    //события
+    public event Action<int, int> OnTimeChanged;
     public event Action<int> OnDayChanged;
 
     private void Awake()
@@ -33,66 +31,48 @@ public class TimeManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         CurrentHour = Mathf.Clamp(startHour, 0, 23);
-        CurrentMinute = Mathf.Clamp(startMinute, 0, 59);
         CurrentDay = startDay;
     }
 
     private void Start()
     {
-        OnTimeChanged?.Invoke(CurrentHour, CurrentMinute, CurrentDay);
+        OnTimeChanged?.Invoke(CurrentHour, CurrentDay);
     }
 
-    /// <summary>
-    /// Продвигает время вперёд на указанное количество минут.
-    /// </summary>
-    public void Advance(int minutes)
+    public void Advance(int hours)
     {
-        if (minutes <= 0) return;
+        if (hours <= 0) return;
 
-        CurrentMinute += minutes;
-
-        // Переход через час
-        while (CurrentMinute >= 60)
+        for (int i = 0; i < hours; i++)
         {
-            CurrentMinute -= 60;
             CurrentHour++;
 
-            // Переход через полночь
             if (CurrentHour >= 24)
             {
                 CurrentHour = 0;
                 CurrentDay++;
                 OnDayChanged?.Invoke(CurrentDay);
             }
+            else if (CurrentHour == dayStartHour)
+            {
+                CurrentDay++;
+                OnDayChanged?.Invoke(CurrentDay);
+            }
         }
 
-        OnTimeChanged?.Invoke(CurrentHour, CurrentMinute, CurrentDay);
+        OnTimeChanged?.Invoke(CurrentHour, CurrentDay);
     }
 
-    /// <summary>
-    /// Продвинуть на указанное количество часов.
-    /// </summary>
-    public void AdvanceHours(int hours) => Advance(hours * 60);
-
-    /// <summary>
-    /// Установить время напрямую (для сейвов, отладки).
-    /// </summary>
-    public void SetTime(int hour, int minute, int day)
+    public void SetTime(int hour, int day)
     {
         CurrentHour = Mathf.Clamp(hour, 0, 23);
-        CurrentMinute = Mathf.Clamp(minute, 0, 59);
         CurrentDay = day;
-        OnTimeChanged?.Invoke(CurrentHour, CurrentMinute, CurrentDay);
+        OnTimeChanged?.Invoke(CurrentHour, CurrentDay);
     }
 
-    /// <summary>
-    /// Форматирует время в "HH:MM".
-    /// </summary>
-    public string GetFormattedTime() => $"{CurrentHour:00}:{CurrentMinute:00}";
+    public string GetFormattedTime() => $"{CurrentHour:00}:00";
 
-    /// <summary>
-    /// Возвращает время суток: "Утро", "День", "Вечер", "Ночь".
-    /// </summary>
+    // время суток
     public string GetTimeOfDay()
     {
         if (CurrentHour >= 5 && CurrentHour < 12) return "Утро";

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e0189fec018d04ab066d576b9a02ec, type: 3}
+  m_Name: ThreeDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  nodes:
+  - npcText: 1+1=?
+    choices:
+    - choiceText: 2
+      responseText: 2
+      requiredItem: {fileID: 0}
+      requiredItemCount: 0
+      consumeRequiredItem: 0
+      reputationRequirement: 0
+      reputationThreshold: 0
+      willRequirement: 0
+      willThreshold: 0
+      requiredFlags: []
+      forbiddenFlags: []
+      onceOnly: 0
+      setFlags: []
+      clearFlags: []
+      reputationDelta: 5
+      willDelta: 5
+      rewardItem: {fileID: 0}
+      rewardItemCount: 0
+      unlockRecipes: []
+      nextNodeIndex: 0
+    - choiceText: 1
+      responseText: 
+      requiredItem: {fileID: 0}
+      requiredItemCount: 0
+      consumeRequiredItem: 0
+      reputationRequirement: 1
+      reputationThreshold: 15
+      willRequirement: 1
+      willThreshold: 15
+      requiredFlags: []
+      forbiddenFlags: []
+      onceOnly: 0
+      setFlags: []
+      clearFlags: []
+      reputationDelta: 5
+      willDelta: 5
+      rewardItem: {fileID: 0}
+      rewardItemCount: 0
+      unlockRecipes:
+      - {fileID: 11400000, guid: e7459c535c819cc48a634e02a977d3ed, type: 2}
+      nextNodeIndex: -1
+    - choiceText: "\u0425\u0417"
+      responseText: 
+      requiredItem: {fileID: 0}
+      requiredItemCount: 0
+      consumeRequiredItem: 0
+      reputationRequirement: 2
+      reputationThreshold: 15
+      willRequirement: 2
+      willThreshold: 15
+      requiredFlags: []
+      forbiddenFlags: []
+      onceOnly: 0
+      setFlags: []
+      clearFlags: []
+      reputationDelta: -5
+      willDelta: -5
+      rewardItem: {fileID: 0}
+      rewardItemCount: 0
+      unlockRecipes: []
+      nextNodeIndex: 0
+    fallbackNodeIndex: 0

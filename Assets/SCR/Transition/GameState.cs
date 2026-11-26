@@ -20,4 +20,9 @@ public class GameState : MonoBehaviour
     public void SetFlag(string flag) => flags.Add(flag);
     public bool HasItem(string id) => inventoryItems.Contains(id);
     public void AddItem(string id) => inventoryItems.Add(id);
+
+    public void ClearAllFlags()
+    {
+        flags.Clear();
+    }
 }

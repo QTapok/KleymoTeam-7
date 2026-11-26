@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIButtons : MonoBehaviour
@@ -50,11 +51,8 @@ public class UIButtons : MonoBehaviour
     }
     private void Start()
     {
-        // Инвентарь стартует скрытым
         InventoryPanel.anchoredPosition = InventoryHiddenPosition;
         InventoryPanel.gameObject.SetActive(true);
-
-        // Настройки стартуют скрытыми
         SettingsPanel.anchoredPosition = SettingsHiddenPosition;
         SettingsPanel.gameObject.SetActive(true);
 
@@ -85,7 +83,7 @@ public class UIButtons : MonoBehaviour
 
     }
 
-    // ---------- ИНВЕНТАРЬ ----------
+    //Инвентарь
     public void ToggleInventory()
     {
         isInventoryOpen = !isInventoryOpen;
@@ -97,7 +95,7 @@ public class UIButtons : MonoBehaviour
         inventoryCoroutine = StartCoroutine(AnimatePanel(InventoryPanel, target));
     }
 
-    // ---------- НАСТРОЙКИ / ПАУЗА ----------
+    //Настройки и пауза
     public void ToggleSettings()
     {
         //One.SetActive(false);
@@ -111,12 +109,10 @@ public class UIButtons : MonoBehaviour
 
         Time.timeScale = isSettingsOpen ? 0f : 1f;
 
-        // Пока меню открыто — кнопка, которая его открыла, неактивна
         if (openSettingsButton != null)
             openSettingsButton.interactable = !isSettingsOpen;
     }
 
-    // ---------- ОБЩАЯ АНИМАЦИЯ ----------
     private IEnumerator AnimatePanel(RectTransform panel, Vector2 targetPos)
     {
         while (Vector2.Distance(panel.anchoredPosition, targetPos) > 0.5f)
@@ -156,8 +152,24 @@ public class UIButtons : MonoBehaviour
 
         //One.SetActive(isDialogueOpen);
 
-        // разблокируем кнопку открытия
         if (openSettingsButton != null)
             openSettingsButton.interactable = true;
+    }
+
+    public void OnSaveClicked()
+    {
+        if (SaveManager.Instance == null) return;
+        SaveManager.Instance.SaveCurrent();
+    }
+
+    public void OnMenuClicked(bool autoSave)
+    {
+        if (autoSave && SaveManager.Instance != null &&
+            SaveManager.Instance.CurrentSlot >= 0 &&
+            !SaveManager.Instance.IsLoading)
+        {
+            SaveManager.Instance.SaveCurrent();
+        }
+        SceneManager.LoadScene("MainMenu");
     }
 }

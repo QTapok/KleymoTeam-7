@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class LocationManager : MonoBehaviour
@@ -10,6 +11,8 @@ public class LocationManager : MonoBehaviour
 
     private readonly Dictionary<string, Location> locations = new();
     public Location Current { get; private set; }
+
+    public event System.Action<string, string> OnLocationChanged;
 
     private void Awake()
     {
@@ -40,6 +43,8 @@ public class LocationManager : MonoBehaviour
 
     private void SetActiveLocation(string locationId)
     {
+        string oldId = Current != null ? Current.id : null;
+
         foreach (var loc in locations.Values)
             loc.gameObject.SetActive(false);
 
@@ -47,5 +52,7 @@ public class LocationManager : MonoBehaviour
         Current.gameObject.SetActive(true);
 
         GameState.Instance.visitedLocations.Add(locationId);
+
+        OnLocationChanged?.Invoke(oldId, locationId);
     }
 }

@@ -10,6 +10,7 @@ public static class DialogueFlags
     {
         public List<string> flags = new List<string>();
         public List<string> usedChoices = new List<string>();
+        public List<string> unlockedRecipes = new List<string>(); // НОВОЕ
     }
 
     private static Data data;
@@ -69,9 +70,40 @@ public static class DialogueFlags
         if (!Store.usedChoices.Contains(choiceId)) { Store.usedChoices.Add(choiceId); Save(); }
     }
 
+    //Методы для рецептов
+    public static bool HasRecipe(string recipeId)
+    {
+        if (string.IsNullOrEmpty(recipeId)) return false;
+        return Store.unlockedRecipes.Contains(recipeId);
+    }
+
+    public static void UnlockRecipe(string recipeId)
+    {
+        if (string.IsNullOrEmpty(recipeId)) return;
+        if (!Store.unlockedRecipes.Contains(recipeId))
+        {
+            Store.unlockedRecipes.Add(recipeId);
+            Save();
+            Debug.Log($"[Крафт] Изучен новый рецепт: {recipeId}");
+        }
+    }
+
     public static void ResetAll()
     {
         data = new Data();
+        Save();
+    }
+
+    public static string ExportJson()
+    {
+        return JsonUtility.ToJson(Store);
+    }
+
+    public static void ImportJson(string json)
+    {
+        if (string.IsNullOrEmpty(json)) { data = new Data(); return; }
+        try { data = JsonUtility.FromJson<Data>(json) ?? new Data(); }
+        catch { data = new Data(); }
         Save();
     }
 }

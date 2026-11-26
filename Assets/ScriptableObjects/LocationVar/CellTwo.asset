@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d6c5e76f06afe45821d5efd9ae1472, type: 3}
+  m_Name: CellTwo
+  m_EditorClassIdentifier: Assembly-CSharp::LocationVariantSet
+  locationId: CellTwo
+  variants:
+  - {fileID: 2565957338216241838, guid: ba88abbcecf04fa4f86ba989b4a2f39c, type: 3}
+  - {fileID: 3755678314495455803, guid: ea5d9588a8232444aa2aa0eb36a312a7, type: 3}
+  allowRepeatIfOnlyOne: 1

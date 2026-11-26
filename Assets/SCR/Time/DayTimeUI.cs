@@ -1,53 +1,63 @@
-using UnityEngine;
+п»їusing UnityEngine;
 
 public class DayTimeUI : MonoBehaviour
 {
-    [Header("Стрелки")]
-    [Tooltip("Часовая стрелка. Pivot должен быть внизу (0.5, 0)")]
+    [Header("РЎС‚СЂРµР»РєРё")]
+    [Tooltip("Р§Р°СЃРѕРІР°СЏ СЃС‚СЂРµР»РєР°")]
     [SerializeField] private RectTransform hourHand;
 
-    [Tooltip("Минутная стрелка. Pivot должен быть внизу (0.5, 0)")]
-    [SerializeField] private RectTransform minuteHand;
+    [Header("РќР°РїСЂР°РІР»РµРЅРёРµ РІСЂР°С‰РµРЅРёСЏ")]
+    [SerializeField] private float rotationDirection = 1f;
 
-    [Header("Направление вращения")]
-    [Tooltip("Если стрелки крутятся не в ту сторону — поставь -1")]
-    [SerializeField] private float rotationDirection = -1f;
+    [Header("РЎРµРєС‚РѕСЂ РёРЅРґРёРєР°С‚РѕСЂР°")]
+    [SerializeField] private float leftAngle = -105f;
+    [SerializeField] private float rightAngle = 105f;
+    [SerializeField] private float angleStep = 15f;//С€Р°РіРі
+
+    [Header("Р§Р°СЃРѕРІС‹Рµ РіСЂР°РЅРёС†С‹")]
+    [SerializeField] private int sunriseHour = 6;
+    [SerializeField] private int sunsetHour = 20;
+
+    [Range(0, 1)]
+    [SerializeField] private int nightHold = 0;
+    private int PositionCount => Mathf.RoundToInt((leftAngle - rightAngle) / angleStep) + 1;
+
 
     private void Start()
     {
-        if (TimeManager.Instance != null)
-        {
-            TimeManager.Instance.OnTimeChanged += UpdateClock;
-            // Сразу выставляем текущее время
-            UpdateClock(TimeManager.Instance.CurrentHour,
-                        TimeManager.Instance.CurrentMinute,
-                        TimeManager.Instance.CurrentDay);
-        }
+        if (TimeManager.Instance == null) return;
+        TimeManager.Instance.OnTimeChanged += UpdateIndicator;
+        UpdateIndicator(TimeManager.Instance.CurrentHour, TimeManager.Instance.CurrentDay);
     }
 
     private void OnDestroy()
     {
         if (TimeManager.Instance != null)
-            TimeManager.Instance.OnTimeChanged -= UpdateClock;
+            TimeManager.Instance.OnTimeChanged -= UpdateIndicator;
     }
 
-    private void UpdateClock(int hour, int minute, int day)
+    private void UpdateIndicator(int hour, int day)
     {
-        // Приводим час к 12-часовому формату (0..11)
-        int hour12 = hour % 12;
+        if (hourHand == null) return;
 
-        // Угол часовой стрелки: 30° за час + 0.5° за минуту
-        float hourAngle = (hour12 * 30f) + (minute * 0.5f);
+        float angle = HourToAngle(hour);
+        hourHand.localRotation = Quaternion.Euler(0, 0, angle * rotationDirection);
+    }
 
-        // Угол минутной стрелки: 6° за минуту
-        float minuteAngle = minute * 6f;
+    private float HourToAngle(int hour)
+    {
+        int positions = PositionCount;
+        int dayLength = sunsetHour - sunriseHour;
+        if (dayLength <= 0) return leftAngle;
 
-        // Применяем вращение вокруг оси Z (для 2D UI)
-        // rotationDirection = -1, если стрелки должны идти по часовой стрелке
-        if (hourHand != null)
-            hourHand.localRotation = Quaternion.Euler(0, 0, hourAngle * rotationDirection);
+        bool isNight = hour < sunriseHour || hour > sunsetHour;
+        if (isNight)
+            return nightHold == 0 ? rightAngle : leftAngle;
 
-        if (minuteHand != null)
-            minuteHand.localRotation = Quaternion.Euler(0, 0, minuteAngle * rotationDirection);
+        float t = (float)(hour - sunriseHour) / dayLength;
+
+        int pos = Mathf.Clamp(Mathf.RoundToInt(t * (positions - 1)), 0, positions - 1);
+
+        return leftAngle - pos * angleStep;
     }
 }

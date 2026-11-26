@@ -14,6 +14,6 @@ public class Exit : MonoBehaviour
             return;
         }
 
-        LocationManager.Instance.GoTo(targetLocation);
+        LocRanMan.Instance.GoTo(targetLocation);
     }
 }

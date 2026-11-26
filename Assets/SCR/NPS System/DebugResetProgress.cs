@@ -1,3 +1,7 @@
+//F8 полный сброс прогресса
+//F7 вывести текущее состояние в консоль
+//F6 передвинуть стрелку часов
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,13 +11,13 @@ public class DebugResetProgress : MonoBehaviour
     {
         if (Keyboard.current == null) return;
 
-        // F8 полный сброс прогресса
+        
         if (Keyboard.current.f8Key.wasPressedThisFrame)
         {
             GameProgress.ResetAll();
         }
 
-        // F7 вывести текущее состояние в консоль
+        
         if (Keyboard.current.f7Key.wasPressedThisFrame)
         {
             string flags = PlayerPrefs.GetString("dlg.save", "<empty>");
@@ -22,5 +26,10 @@ public class DebugResetProgress : MonoBehaviour
                 $"Репутация: {PlayerStats.Reputation}, Воля: {PlayerStats.Will}\n" +
                 $"Предметов в инвентаре: {(Inventory.Instance != null ? Inventory.Instance.items.Count : -1)}");
         }
+        if (Keyboard.current.f6Key.wasPressedThisFrame)
+        {
+            TimeManager.Instance.Advance(1);
+        }
+
     }
 }

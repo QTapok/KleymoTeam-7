@@ -1,18 +1,14 @@
 using UnityEngine;
 
-/// <summary>
-/// Хранилище характеристик игрока: репутация и воля.
-/// Статический класс — не вешается на GameObject, живёт на всю игру.
-/// </summary>
 public static class PlayerStats
 {
-    // --- Репутация: как игрока видят другие ---
     public static int Reputation = 0;
-
-    // --- Воля: внутренняя сила/характер игрока ---
     public static int Will = 0;
+    public static int Health = 100;
+    public static int Hungry = 0;
+    public static int Fatigue = 0;
 
-    // Событие — если хочешь, чтобы UI сам обновлялся при изменении
+
     public static event System.Action OnStatsChanged;
 
     public static void AddReputation(int delta)
@@ -31,7 +27,6 @@ public static class PlayerStats
         OnStatsChanged?.Invoke();
     }
 
-    // Удобный метод — изменить оба сразу (для выбора в диалоге)
     public static void Apply(int reputationDelta, int willDelta)
     {
         if (reputationDelta != 0)
@@ -47,12 +42,39 @@ public static class PlayerStats
         if (reputationDelta != 0 || willDelta != 0)
             OnStatsChanged?.Invoke();
     }
+    public static void AddFatigue(int delta)
+    {
+        if (delta == 0) return;
+        Fatigue = Mathf.Clamp(Fatigue + delta, 0, 100);
+        Debug.Log($"Усталость: {Fatigue} ({delta:+#;-#;0})");
+        OnStatsChanged?.Invoke();
+    }
 
-    // На случай новой игры — сбросить всё
+    public static void AddHungry(int delta)
+    {
+        if (delta == 0) return;
+        Hungry = Mathf.Clamp(Hungry + delta, 0, 100);
+        Debug.Log($"Голод: {Hungry} ({delta:+#;-#;0})");
+        OnStatsChanged?.Invoke();
+    }
+
+    public static void AddHealth(int delta)
+    {
+        if (delta == 0) return;
+        Health = Mathf.Clamp(Health + delta, 0, 100);
+        Debug.Log($"Здоровье: {Health} ({delta:+#;-#;0})");
+        OnStatsChanged?.Invoke();
+    }
+
     public static void Reset()
     {
         Reputation = 0;
-        Will = 0;
+        Will = 50;
+        Health = 100;
+        Hungry = 0;
+        Fatigue = 0;
         OnStatsChanged?.Invoke();
     }
+
+    public static void ForceNotify() => OnStatsChanged?.Invoke();
 }

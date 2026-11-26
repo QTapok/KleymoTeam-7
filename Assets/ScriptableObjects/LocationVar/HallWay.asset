@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d6c5e76f06afe45821d5efd9ae1472, type: 3}
+  m_Name: HallWay
+  m_EditorClassIdentifier: Assembly-CSharp::LocationVariantSet
+  locationId: HallWay
+  variants:
+  - {fileID: 3517249580126106044, guid: 3203aeaf27581c849a938cc2e4a1da9b, type: 3}
+  allowRepeatIfOnlyOne: 1

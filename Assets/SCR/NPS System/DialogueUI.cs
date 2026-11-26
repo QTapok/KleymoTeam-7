@@ -18,6 +18,9 @@ public class DialogueUI : MonoBehaviour
     [Header("HUD — характеристики")]
     public TMP_Text reputationText;
     public TMP_Text willText;
+    public TMP_Text healthText;
+    public TMP_Text fatigueText;
+    public TMP_Text hungryText;
 
     private DialogueData currentDialogue;
     private readonly List<Button> spawnedButtons = new List<Button>();
@@ -35,21 +38,17 @@ public class DialogueUI : MonoBehaviour
         PlayerStats.OnStatsChanged -= UpdateStatsUI;
     }
 
-    // ==== Публичное API ====
-
     public void Open(DialogueData data)
     {
         currentDialogue = data;
         panel.SetActive(true);
         ShowNode(0);
-        Transit.SetActive(false);
-        NPC.SetActive(false);
+
     }
 
     public void Close()
     {
-        Transit.SetActive(true);
-        NPC.SetActive(true);
+
         panel.SetActive(false);
         currentDialogue = null;
     }
@@ -78,12 +77,13 @@ public class DialogueUI : MonoBehaviour
             if (!IsChoiceAvailable(choice, index, i)) continue;
 
             bool hasItem = HasRequiredItem(choice, out string missing);
+            bool hasStats = HasRequiredStats(choice);
 
             var btn = Instantiate(choiceButtonPrefab, choicesContainer);
             btn.GetComponentInChildren<TMP_Text>().text =
                 choice.choiceText + BuildHint(choice, hasItem, missing);
 
-            if (!hasItem)
+            if (!hasItem || !hasStats)
             {
                 btn.interactable = false;
                 var c = btn.colors;
@@ -151,6 +151,18 @@ public class DialogueUI : MonoBehaviour
         }
         return true;
     }
+    private bool HasRequiredStats(DialogueChoice choice)
+    {
+        if (!DialogueChoice.MeetsRequirement(
+                choice.reputationRequirement, PlayerStats.Reputation, choice.reputationThreshold))
+            return false;
+
+        if (!DialogueChoice.MeetsRequirement(
+                choice.willRequirement, PlayerStats.Will, choice.willThreshold))
+            return false;
+
+        return true;
+    }
 
     private string BuildHint(DialogueChoice choice, bool hasItem, string missing)
     {
@@ -164,6 +176,24 @@ public class DialogueUI : MonoBehaviour
             if (hasItem && choice.requiredItemCount > 1)
                 req += " ×" + choice.requiredItemCount;
             parts.Add(hasItem ? req : "<color=#FF6B6B>" + req + "</color>");
+        }
+
+        if (choice.reputationRequirement != StatRequirementMode.Any)
+        {
+            bool ok = DialogueChoice.MeetsRequirement(
+                choice.reputationRequirement, PlayerStats.Reputation, choice.reputationThreshold);
+            string req = DialogueChoice.FormatRequirement(
+                "Репутация", choice.reputationRequirement, choice.reputationThreshold);
+            parts.Add(ok ? req : "<color=#FF6B6B>" + req + "</color>");
+        }
+
+        if (choice.willRequirement != StatRequirementMode.Any)
+        {
+            bool ok = DialogueChoice.MeetsRequirement(
+                choice.willRequirement, PlayerStats.Will, choice.willThreshold);
+            string req = DialogueChoice.FormatRequirement(
+                "Воля", choice.willRequirement, choice.willThreshold);
+            parts.Add(ok ? req : "<color=#FF6B6B>" + req + "</color>");
         }
 
         if (choice.reputationDelta != 0)
@@ -186,6 +216,7 @@ public class DialogueUI : MonoBehaviour
     {
         if (!IsChoiceAvailable(choice, nodeIdx, choiceIdx)) return;
         if (!HasRequiredItem(choice, out _)) return;
+        if (!HasRequiredStats(choice)) return;
 
         if (choice.requiredItem != null && choice.consumeRequiredItem &&
             Inventory.Instance != null)
@@ -208,6 +239,15 @@ public class DialogueUI : MonoBehaviour
                 Inventory.Instance.Add(choice.rewardItem);
         }
 
+        if (choice.unlockRecipes != null)
+        {
+            foreach (var recipe in choice.unlockRecipes)
+            {
+                if (recipe != null)
+                    DialogueFlags.UnlockRecipe(recipe.recipeId);
+            }
+        }
+
         if (choice.onceOnly)
             DialogueFlags.MarkChoiceUsed(KeyFor(nodeIdx, choiceIdx));
 
@@ -223,8 +263,18 @@ public class DialogueUI : MonoBehaviour
     private void UpdateStatsUI()
     {
         if (reputationText != null)
-            reputationText.text = "Репутация: " + PlayerStats.Reputation;
+            reputationText.text = "" + PlayerStats.Reputation;
         if (willText != null)
-            willText.text = "Воля: " + PlayerStats.Will;
+            willText.text = "" + PlayerStats.Will;
+        if (fatigueText != null)
+            fatigueText.text = "" + PlayerStats.Fatigue;
+
+        if (healthText != null)
+            healthText.text = "" + PlayerStats.Health;
+        if (hungryText != null)
+            hungryText.text = "" + PlayerStats.Hungry;
+
+
+
     }
 }
